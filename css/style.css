@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #090A0A;
+    font-family: 'Lato', sans-serif;
+}
+
+.login {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #151617;
+    text-align:center;
+    border:0;
+    border-radius: 20px;
+}
+
+.login h1 {
+    font-weight: normal;
+    color: white;
+}
+
+.login input[type = "text"],
+.login input[type = "password"] {
+    padding: 15px 25px;
+    border: 0;
+    outline: 0;
+    background: none;
+    margin: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    border: 1.5px solid #03d3fc;
+    color:white;
+    transition: 500ms ease;
+}
+
+.login input[type = "submit"] {
+    width: 100px;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: none;
+    border: 1.5px solid #03fc2c;
+    color: white;
+    
+}
+
+.login input[type = "text"]:focus,
+.login input[type = "password"]:focus {
+    padding: 15px 55px;
+    border: 1.5px solid #03fc2c;
+    color:white;
+}
+
+.login input[type = "submit"]:hover {
+    background-color: #03fc2c;
+    font-weight: bold;
+}
